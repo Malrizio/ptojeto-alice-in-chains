@@ -1,0 +1,173 @@
+html {
+    font-family: helvetica;
+    background-color: #555;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* HEADER */
+
+.header {
+    text-align: center;
+
+}
+
+#atitle{
+    text-decoration: none;
+    color: #000000d7;
+}
+
+
+.main-title {
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+.main-paragraph {
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+/* IMAGEM DESTAQUE */
+
+.featured-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* BIOGRAFIA */
+
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #a6a5a5;
+    border-bottom: 1px dashed #a6a5a5;
+    line-height: 23px;
+}
+
+/* QUOTES */
+
+.quotes-container {
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 45PX;
+
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+/* CURIOSIDADES */
+
+.curiosities-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #a6a5a5;
+    border-bottom: 1px dashed #a6a5a5;
+    ;
+}
+
+.curiosities-container li {
+    height: 30px;
+}
+
+/* VÍDEO CLIP */
+
+#clipe {
+    border-top: 1px dashed #a6a5a5;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-top: 30px;
+
+}
+
+.video {
+    background-color: #0d0d0d;
+    border-radius: 15px;
+    margin: 30px 200px;
+    padding: 40px;
+    position: relative;
+    padding-left: 7%;
+    box-shadow: 2px 2px 10px black;
+}
+
+.video iframe> {
+    position: absolute;
+}
+
+#figcaption {
+    margin: 25px 0;
+}
+
+/* IMAGEM BOLD */
+
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 45px;
+}
+
+#link {
+    text-decoration: none;
+    color: rgb(16, 16, 86);
+    font-weight: bolder;
+}
+
+#mi {
+    color: rgba(0, 0, 0, 0.756);
+}
+
+/* BOTÃO HOME */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.btn::after {
+    content: "↟";
+    font-size: 23px;
+    font-weight: bold;
+    color: #000000;
+    
+    transition: margin-top 250ms;
+}
+
+.btn:hover::after {
+    margin-top: -5px;
+}
